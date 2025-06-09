@@ -1,50 +1,71 @@
-# SoftFixes Assets
+# SoftFixes
 
-This repository contains official brand assets, design resources, and UI elements for the SoftFixes project.
+This repository serves as the central source for all official brand assets, design resources, templates, and organizational documentation used across all SoftFixes projects. It ensures consistency and professionalism by providing shared visual elements like logos and color palettes, as well as essential guidelines and templates for development and collaboration.
+
+All other SoftFixes repositories reference and utilize the resources maintained here.
+
+---
 
 ## Repository Structure
 
 ```
-logos/       → Softfixes logos and icons (light/dark, PNG/SVG versions)  
-brand/       → Color palette and typography guides  
-design/      → Design files (Figma links, drafts, mockups)  
-favicon/     → Website favicons  
+assets/       → Logos, color palettes, icons, fonts, and other design resources  
+docs/       → Organizational documents, coding standards, contribution guidelines, onboarding materials
+templates/      → Markdown templates for README, issues, pull requests, and contribution guidelines
+.github/     → GitHub workflows and automation configurations for CI/CD  
 ```
+---
 
-## Usage in Other Repositories
+## Usage
 
-You can use these resources in your Markdown or websites like this:
+Teams and projects within SoftFixes should use this repository as the primary source for:
 
-### Markdown:
-```md
-![Softfixes Logo](https://raw.githubusercontent.com/softfixesofficial/softfixes-assets/main/logos/softfixes_logo.png)
-```
+- Visual branding elements (logos, colors, icons) to ensure consistent appearance across all platforms.  
+- Documentation and templates to maintain uniform development standards and collaboration workflows.  
+- CI/CD configurations to streamline automation and integration processes.
 
-### HTML:
-```html
-<img src="https://raw.githubusercontent.com/softfixesofficial/softfixes-assets/main/logos/softfixes_logo.png" alt="Softfixes Logo" width="200" />
-```
+Whenever updates are made here, all dependent repositories are expected to synchronize to keep alignment.
 
-## Brand Identity
+---
 
-- **Primary Color:** `#3F2B96`  
-- **Secondary Color:** `#1A1A40`  
-- **Accent Colors:** `#2C2C54`, `#00C896`, `#FFD700`  
+## Important Documentation
 
-Typography and design guidelines are documented in the `/brand` and `/design` folders.
+This repository includes several key documents to guide development, contributions, and collaboration within SoftFixes:
 
-## Notes
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** — Guidelines and best practices for contributing to this repository.  
+- **[LICENSE](LICENSE)** — License terms governing the use of this repository’s content.  
+- **[docs/coding-standards.md](docs/coding-standards.md)** — Coding conventions and quality guidelines to maintain code consistency.  
+- **[docs/organization-structure.md](docs/organization-structure.md)** — Overview of Softfixes’ organizational structure, roles, and repository layout.
 
-- Most design materials are AI-assisted and curated by the SoftFixes team.  
-- All assets are open for internal use across SoftFixes projects.
+Please refer to these documents before making contributions or raising issues.
+
+---
+
+## Contributing
+
+Thank you for your interest in contributing! To maintain quality and consistency, please follow these guidelines:
+
+- Fork the repository and create your branch from `main`.  
+- Write clear and concise commit messages.  
+- Ensure your changes comply with the coding standards defined in `docs/coding-standards.md`.  
+- Submit pull requests with detailed descriptions of your changes.  
+- Review existing issues before creating new ones to avoid duplicates.
+
+For more information, see the full contribution guidelines in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
+---
 
 ## License
 
-Assets in this repository are shared under the [CC0 1.0 Universal License](LICENSE).
+This repository and its contents are licensed under the [CC0 1.0 Universal License](https://creativecommons.org/publicdomain/zero/1.0/legalcode).
+
+---
 
 ## Maintainers
 
-- [@alindakabadayi](https://github.com/alindakabadayi)
-- [@izzetJmy](https://github.com/izzetJmy)
+- [@alindakabadayi](https://github.com/alindakabadayi)  
+- [@izzetJmy](https://github.com/izzetJmy)  
 
 ---
+
+*Softfixes Team*

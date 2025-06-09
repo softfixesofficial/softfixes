@@ -9,7 +9,7 @@ All other SoftFixes repositories reference and utilize the resources maintained 
 ## Repository Structure
 
 ```
-assets/       → Logos, color palettes, icons, fonts, and other design resources  
+assets/       → Brand assets including logos, color palettes, icons, and fonts 
 docs/       → Organizational documents, coding standards, contribution guidelines, onboarding materials
 templates/      → Markdown templates for README, issues, pull requests, and contribution guidelines
 .github/     → GitHub workflows and automation configurations for CI/CD  
